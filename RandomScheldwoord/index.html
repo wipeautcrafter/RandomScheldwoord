@@ -1,0 +1,12 @@
+<head>
+	<title>Scheldwoord Generator</title>
+	<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+	<script type="text/javascript" src="words.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="document.getElementById('btn').innerHTML = randomWord()">
+	<center>
+		<button id="btn" onclick="this.innerHTML = randomWord()"></button>
+	</center>
+</body>
